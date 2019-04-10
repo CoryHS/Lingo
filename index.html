@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lingo game</title>
+</head>
+  <link rel="stylesheet" href="CSS/style.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+<div id="description">
+  <h1>GAME DESCRIPTION</h1>
+  <p>Je probeert het woord te raden. 1 woord heeft 5 letters.</p>
+
+</div>
+
+
+<div id='msgBox'>Lingo</div>
+  <div id="container">
+    <div id="rows">
+    <div id="row1">
+      <div class="square default"></div>
+      <div class="square default"></div>
+      <div class="square default"></div>
+      <div class="square default"></div>
+      <div class="square default"></div>
+    </div>
+    <div id="row2">
+      <div class="square default"></div>
+      <div class="square default"></div>
+      <div class="square default"></div>
+      <div class="square default"></div>
+      <div class="square default"></div>
+    </div>
+    <div id="row3">
+      <div class="square default"></div>
+      <div class="square default"></div>
+      <div class="square default"></div>
+      <div class="square default"></div>
+      <div class="square default"></div>
+    </div>
+    <div id="row4">
+      <div class="square default"></div>
+      <div class="square default"></div>
+      <div class="square default"></div>
+      <div class="square default"></div>
+      <div class="square default"></div>
+    </div>
+    <div id="row5">
+      <div class="square default"></div>
+      <div class="square default"></div>
+      <div class="square default"></div>
+      <div class="square default"></div>
+      <div class="square default"></div>
+    </div>
+    </div>
+  </div>
+
+  <div id='smallMsg'></div>
+<input id="guess" onkeypress="submitguess(this)" placeholder='Type your guess!'>
+<button id="button" class="invisible" onClick="playagain()">Try Again?</button>
+ <script type="text/javascript" src="JS/logic.js"></script>
+
+
+
+</body>
+</html>
+
+

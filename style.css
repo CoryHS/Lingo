@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  background: white;
+}
+
+button {
+  margin: auto;
+  background: white;
+  border: 1px solid black;
+  padding: 10px 15px;
+  font-size: 20px;
+}
+
+button:hover {
+  background-color: green;
+  color: white;
+}
+
+
+.invisible {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+  #msgBox {
+    font-size: 2.5em;
+  }
+}
+
+#smallMsg {
+  text-align: center;
+  padding: 0px 0px 10px 0px;
+  font-size: 1.1em;
+}
+
+#msgBox {
+  text-align: center;
+  font-size: 3.5em;
+  font-family: 'Arial', sans-serif;
+  margin: 0.1em 0em;
+  padding-bottom: 50px; 
+}
+
+
+#container {
+  margin-left: 420px;
+  width: 40em;
+ 
+}
+
+#guess {
+  border: 3px black solid;
+  padding: 5px;
+  margin: 10px auto;
+  display: block;
+  height: 75px;
+  width: 250px;
+  
+}
+
+.correct {
+  background: green;
+}
+
+.wrongplace {
+  background: yellow;
+}
+
+.default {
+  background: #4b8ffc;
+}
+
+#description{
+
+  width: 250px;
+  text-overflow: hidden;
+  position: absolute;
+  display: block;
+  padding-left: 20px;
+  padding-top: 20px;
+  font-family: 'Lato', sans-serif;
+  margin-top: 50px;
+
+}
+
+
+.square {
+  vertical-align:top;
+  margin-top: 4px;
+  border: 2px black solid;
+  border-radius: 1px;
+  display: inline-block;
+  height: 2.1em;
+  width: 2.1em;
+  text-align: center;
+  font-size: 3.5em;
+  font-family: 'Lato', sans-serif;
+}
